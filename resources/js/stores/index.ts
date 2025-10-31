@@ -17,7 +17,6 @@ export const useLocalizationStore = defineStore(
                     }
                 })
                 .catch((error) => {
-                    // TODO: add proper error handling
                     console.error('Error changing language', error);
                     // Optional: show a toast/notification
                 });
